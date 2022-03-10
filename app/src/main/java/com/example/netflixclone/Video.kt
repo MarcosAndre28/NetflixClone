@@ -17,7 +17,7 @@ class Video : AppCompatActivity() {
 
         supportActionBar!!.hide()
 
-        val videoUrl = Uri.parse("https://firebasestorage.googleapis.com/v0/b/netflixclone-c684b.appspot.com/o/THE%20WITCHER%20_%20TRAILER%20FINAL%20_%20NETFLIX.mp4?alt=media&token=4eb1e667-c4ce-473e-8598-513b3d0d01c8")
+        val videoUrl = Uri.parse("https://firebasestorage.googleapis.com/v0/b/netflixclone-c684b.appspot.com/o/THE%20WITCHER%20_%20TRAILER%20FINAL%20_%20NETFLIX.mp4?alt=media&token=Chave da Api")
 
         val video = binding.video
         video.setMediaController(MediaController(this))
